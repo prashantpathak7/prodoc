@@ -1,1 +1,103 @@
-/* style css  */
+/* to style html markup */
+
+/* 
+1. tag selector
+2. id selector
+3. class selector 
+*/
+
+/* color */
+*{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 5000px;
+}
+.red{
+    color: red;
+}
+
+/* background colour */
+.property2{
+    color: hotpink;
+    background: brown;
+}
+
+/* font-family */
+.fontcheck{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* font size */
+.fontsize{
+    font-size: 12px;
+}
+
+/* text align */
+.textlalign{
+    text-align: center;
+    background-color: aquamarine;
+    padding: 30px;
+    margin: 30px;
+    border: 2px solid black;
+    /* border: 2px dotted black; */
+    border-radius: 50px;
+    width: 200px;
+    height: 500px;
+    /* background-image:url();
+    background-repeat:no-repeat;
+    background-position: bottom;
+    background-size:cover; */
+    /* box-shadow: 2px 2px 1px gray; */
+    cursor: pointer;
+
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    /* opacity: 0.5; */
+    /* display: none; */
+    /* display: block; */
+    /* display: inline; */
+}
+
+/* others */
+p{
+    line-height:1.5;
+}
+
+ul{
+    /* list-style-type: disc; */
+    list-style-type: circle;
+}
+
+.wrapper{
+    width: 400px;
+    height: 400px;
+    background-color: gray;
+    margin: 40px;
+    position: relative;
+}
+
+.inner{
+    width: 150px;
+    height: 150px;
+    background: red;
+    /* position: fixed;
+    bottom: 40px;
+    right: 40px; */
+    /* border-radius: 50px; */
+    position: absolute;
+    bottom: 40px;
+    right: 40px; 
+    /* top: 175px;
+    right: -25px; */
+    z-index: 2;
+}
+
+.inner2{
+    width: 150px;
+    height: 150px; 
+    background: green;
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    z-index: 1;
+}
