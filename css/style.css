@@ -10,17 +10,18 @@
 *{
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    height: 5000px;
+    /* height: 5000px; */
+    color: white;
 }
 .red{
     color: red;
 }
 
 /* background colour */
-.property2{
+/* .property2{
     color: hotpink;
     background: brown;
-}
+} */
 
 /* font-family */
 .fontcheck{
@@ -59,9 +60,9 @@
 }
 
 /* others */
-p{
+/* p{
     line-height:1.5;
-}
+} */
 
 ul{
     /* list-style-type: disc; */
@@ -100,4 +101,41 @@ ul{
     bottom: 40px;
     right: 40px;
     z-index: 1;
+}
+
+
+/* flexbox */
+/* layout create, inine block float, position absoulte etc to create grid */
+
+.container{
+display: flex;
+/* height: 500px; */
+/* align-items: flex-start; */
+/* flex-direction: column; */
+justify-content:space-between;
+margin-right: -50px;
+}
+
+.container div{
+background:#718096;
+border:1px solid silver;
+padding:1.6rem;
+/* width */
+/* flex-basis: 20%; */
+margin-right: 50px;
+}
+
+.item-1{
+    /* to channge size  */
+    /* flex:1; */
+    /* change order  */
+    /* order: 2; */
+}
+.item-2{
+    /* flex:1; */
+    /* order: 3; */
+}
+.item-3{
+    /* flex:1; */
+    /* order: 1; */
 }
